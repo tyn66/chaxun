@@ -31,7 +31,7 @@ def Heartbeat():
 
     channel_province = '冀'
     channel_id = 3
-    channel_flag = "冀"
+    channel_flag = 1
     # channel_type = 1 #1 为不要验证码
     need_vin = 4 #车架号 0 为不需要 4为后四位 6为后六位99为完整的
     need_engine_number = 0 #发动机号 0 为不需要 4为后四位 6为后六位99为完整的
@@ -56,7 +56,7 @@ def Heartbeat():
     }
     return a
 
-# print(Heartbeat())
+print(Heartbeat())
 
 
 if __name__ == '__main__':
@@ -67,7 +67,7 @@ if __name__ == '__main__':
             data = Heartbeat()
             a = requests.post(url=url,data = data).content
             b = json.loads(a)
-            # print(b)
+            print(b)
             time.sleep(60)
     except Exception as e:
         with open("heartbeat.txt","a+") as f:

@@ -20,7 +20,7 @@ def hbjswm():
 @app.route('/3/',methods=["POST"])
 def hblongs():
     cph = request.form.get("cph")
-    b = hbjsrwcx.hbjsrw(cph=cph)
+    b = hbjsrwcx.hbjsrw1(cph=cph)
     return b
 
 @app.route('/cxy/')

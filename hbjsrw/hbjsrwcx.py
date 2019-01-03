@@ -6,7 +6,7 @@ import sys,os
 sys.path.append(os.getcwd())
 from hbjsrw.utils import utils,yzm
 
-def hbjsrw(**kwargs):
+def hbjsrw1(**kwargs):
     # driver = webdriver.PhantomJS()
     chrome_options = Options()
     chrome_options.add_argument('--headless')
@@ -200,7 +200,7 @@ def jieguo(driver,cph):
         return json.dumps(jsonL, ensure_ascii=False)
 
 if __name__ == '__main__':
-    hbjsrw()
+    hbjsrw1()
     # while True:
     #     aa = hbjsrw(cph = "冀B6X9Y8" )
     #     print(aa)
