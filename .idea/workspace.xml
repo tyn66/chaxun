@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64fbf39f-2265-421a-be03-eae27ea6a679" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xintiao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bohao.py" beforeDir="false" afterPath="$PROJECT_DIR$/bohao.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +121,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bohao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="350">
               <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
             </state>
           </provider>
@@ -432,7 +432,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="267" y="15" width="1300" height="809" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49814126" visible="true" weight="0.11370968" />
       <window_info id="Structure" order="1" sideWeight="0.5018587" side_tool="true" weight="0.1092545" />
@@ -629,7 +628,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bohao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="350">
           <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>

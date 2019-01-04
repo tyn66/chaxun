@@ -2,8 +2,8 @@ import os,time
 
 #TODO 进行拨号
 def aa():
-    os.system("ifconfig")
     os.system("pppoe-start")
+    os.system("ifconfig")
 
 #TODO 断开拨号
 def dd():
@@ -14,4 +14,4 @@ while True:
     dd()
     time.sleep(1)
     aa()
-    time.sleep(600)
+    time.sleep(120)

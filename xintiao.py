@@ -30,7 +30,7 @@ def Heartbeat():
     channel_bandwidth_used = ((count1.bytes_sent - count.bytes_sent) + (count1.bytes_recv  - count.bytes_recv))/1024*8
 
     channel_province = '冀'
-    channel_id = 4
+    channel_id = 2
     channel_flag = 2
     # channel_type = 1 #1 为不要验证码
     need_vin = 4 #车架号 0 为不需要 4为后四位 6为后六位99为完整的
