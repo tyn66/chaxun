@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64fbf39f-2265-421a-be03-eae27ea6a679" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bohao.py" beforeDir="false" afterPath="$PROJECT_DIR$/bohao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xintiao.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,33 +96,42 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="31" />
+          <entry key="py" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="31" />
+          <entry key="Python" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="py" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="Python" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bohao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+            <state relative-caret-position="375">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xintiao.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -187,6 +196,7 @@
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/hbjsrw/hbjsrwcx.py" />
         <option value="$PROJECT_DIR$/bohao.py" />
+        <option value="$PROJECT_DIR$/xintiao.py" />
       </list>
     </option>
   </component>
@@ -203,8 +213,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="294" />
-    <option name="y" value="54" />
+    <option name="x" value="267" />
+    <option name="y" value="15" />
     <option name="width" value="1300" />
     <option name="height" value="809" />
   </component>
@@ -238,11 +248,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\chaxun" />
       <recent name="F:\flask查询" />
       <recent name="F:\flask查询\templates" />
       <recent name="F:\flask查询\hbjsrw" />
       <recent name="F:\flask查询\cxy" />
-      <recent name="F:\flask查询\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\chaxun" />
@@ -421,7 +431,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="294" y="54" width="1300" height="809" extended-state="0" />
+    <frame x="267" y="15" width="1300" height="809" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49814126" visible="true" weight="0.11370968" />
       <window_info id="Structure" order="1" sideWeight="0.5018587" side_tool="true" weight="0.1092545" />
@@ -474,9 +485,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/hbjsrw/aa.py" />
     <entry file="file://$PROJECT_DIR$/hbjsrm/utils/yzm.py" />
     <entry file="file://$PROJECT_DIR$/hbjsrm/hbjsrw.py" />
@@ -621,8 +629,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bohao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="375">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xintiao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
         </state>
       </provider>
     </entry>
