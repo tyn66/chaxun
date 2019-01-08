@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64fbf39f-2265-421a-be03-eae27ea6a679" name="Default Changelist" comment="" />
+    <list default="true" id="64fbf39f-2265-421a-be03-eae27ea6a679" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/xintiao.py" beforeDir="false" afterPath="$PROJECT_DIR$/xintiao.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +18,7 @@
     <SUITE FILE_PATH="coverage/flask$test.coverage" NAME="test Coverage Results" MODIFIED="1546066082807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flask$hbjsrw.coverage" NAME="hbjsrw Coverage Results" MODIFIED="1545465994105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbjsrw" />
     <SUITE FILE_PATH="coverage/flask$xintiao.coverage" NAME="xintiao Coverage Results" MODIFIED="1546483447861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbjsrw" />
+    <SUITE FILE_PATH="coverage/chaxun$xintiao__1_.coverage" NAME="xintiao (1) Coverage Results" MODIFIED="1546909832958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flask$aa.coverage" NAME="aa Coverage Results" MODIFIED="1545464931446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hbjsrw" />
     <SUITE FILE_PATH="coverage/flask$flask.coverage" NAME="flask查询 Coverage Results" MODIFIED="1546479270314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/flask$test111.coverage" NAME="test111 Coverage Results" MODIFIED="1546056597773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -113,6 +116,34 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1317497732">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="93" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="93" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -128,8 +159,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/xintiao.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            <state relative-caret-position="101">
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+              <folding>
+                <marker date="1546909998565" expanded="true" signature="2085:2656" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -211,8 +245,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="99" />
-    <option name="y" value="24" />
+    <option name="x" value="139" />
     <option name="width" value="1300" />
     <option name="height" value="809" />
   </component>
@@ -239,7 +272,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/122" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
@@ -269,29 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hbjsrwcx">
-    <configuration name="cxycx" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="flask查询" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cxy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cxy/cxycx.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.xintiao (1)">
     <configuration name="hbjsrwcx" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="flask查询" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -358,6 +369,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="xintiao (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="flask查询" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xintiao.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="xintiao" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="flask查询" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -401,17 +434,17 @@
       <item itemvalue="Flask server.flask查询" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.hbjsrwcx" />
-      <item itemvalue="Python.cxycx" />
       <item itemvalue="Python.test111" />
       <item itemvalue="Python.xintiao" />
+      <item itemvalue="Python.xintiao (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.xintiao (1)" />
         <item itemvalue="Python.hbjsrwcx" />
         <item itemvalue="Python.xintiao" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.test111" />
-        <item itemvalue="Python.cxycx" />
       </list>
     </recent_temporary>
   </component>
@@ -429,16 +462,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="99" y="24" width="1300" height="809" extended-state="1" />
+    <frame x="139" y="0" width="1300" height="809" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49814126" visible="true" weight="0.11370968" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49814126" visible="true" weight="0.11532258" />
       <window_info id="Structure" order="1" sideWeight="0.5018587" side_tool="true" weight="0.1092545" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32592592" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32210243" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3214815" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32740742" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -483,7 +516,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hbjsrw/aa.py" />
     <entry file="file://$PROJECT_DIR$/hbjsrm/utils/yzm.py" />
     <entry file="file://$PROJECT_DIR$/hbjsrm/hbjsrw.py" />
     <entry file="file://$PROJECT_DIR$/czt/utils/utils.py" />
@@ -496,13 +528,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/czt/utils/czt_utils.py" />
     <entry file="file://$PROJECT_DIR$/czt/cztcx.py" />
-    <entry file="file://F:/迅雷下载/项目练习/项目练习/aa/spider1807A/p1026/utils/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://F:/迅雷下载/项目练习/项目练习/aa/spider1807A/p1026/utils/util.py" />
     <entry file="file://C:/python/Lib/logging/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -514,13 +540,7 @@
     <entry file="file://$PROJECT_DIR$/templates/czt.html" />
     <entry file="file://$PROJECT_DIR$/hb冀C6X9Y8.png" />
     <entry file="file://$PROJECT_DIR$/templates/tast.html" />
-    <entry file="file://F:/迅雷下载/项目练习/项目练习/kaoshi/utils/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="69" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://F:/迅雷下载/项目练习/项目练习/kaoshi/utils/utils.py" />
     <entry file="file://$PROJECT_DIR$/templates/hbjsqw.html" />
     <entry file="file://$PROJECT_DIR$/douban.txt" />
     <entry file="file://$PROJECT_DIR$/templates/test.js" />
@@ -540,91 +560,28 @@
     <entry file="file://$PROJECT_DIR$/config.py" />
     <entry file="file://$PROJECT_DIR$/app1.py" />
     <entry file="file://$PROJECT_DIR$/flaskwork.py" />
-    <entry file="file://$PROJECT_DIR$/templates/cxy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="9" column="73" lean-forward="true" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/hbjsrw.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cxy.html" />
+    <entry file="file://$PROJECT_DIR$/templates/hbjsrw.html" />
     <entry file="file://$PROJECT_DIR$/ghostdriver.log" />
-    <entry file="file://$PROJECT_DIR$/cxy/utils/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cxy/utils/utils.py" />
     <entry file="file://$PROJECT_DIR$/cxy/cxy.txt" />
     <entry file="file://$PROJECT_DIR$/cxy/ghostdriver.log" />
     <entry file="file://$PROJECT_DIR$/hbjsrw/hbjsrw.txt" />
     <entry file="file://$PROJECT_DIR$/hbjsrw/ghostdriver.log" />
     <entry file="file://$PROJECT_DIR$/111.txt" />
-    <entry file="file://$PROJECT_DIR$/hbjsrw/utils/yzm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hbjsrw/utils/yzm.py" />
     <entry file="file://$PROJECT_DIR$/冀B6X9Y8.png" />
     <entry file="file://$PROJECT_DIR$/cxy.txt" />
     <entry file="file://$PROJECT_DIR$/hbjsrw/冀B6X9Y1.png" />
-    <entry file="file://$PROJECT_DIR$/hbjsrw/utils/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hbjsrw/utils/utils.py" />
     <entry file="file://$PROJECT_DIR$/test111.py" />
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/cxy/xintiao.py" />
     <entry file="file://$PROJECT_DIR$/hbjsrw.txt" />
-    <entry file="file://$PROJECT_DIR$/hbjsrw/xintiao.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbjsrw/hbjsrwcx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="189" column="26" selection-start-line="189" selection-start-column="26" selection-end-line="189" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxy/cxycx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1625">
-          <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hbjsrw/xintiao.py" />
+    <entry file="file://$PROJECT_DIR$/hbjsrw/hbjsrwcx.py" />
+    <entry file="file://$PROJECT_DIR$/app.py" />
+    <entry file="file://$PROJECT_DIR$/cxy/cxycx.py" />
     <entry file="file://$PROJECT_DIR$/bohao.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -632,10 +589,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/heartbeat.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/xintiao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        <state relative-caret-position="101">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <marker date="1546909998565" expanded="true" signature="2085:2656" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

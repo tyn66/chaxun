@@ -1,4 +1,4 @@
-import datetime,socket,psutil,time,requests,json
+import socket,psutil,time,json,requests.adapters
 def Heartbeat():
     """
     时间，ip地址，内存使用率，磁盘使用率
@@ -26,12 +26,12 @@ def Heartbeat():
     count = psutil.net_io_counters()
     time.sleep(1)
     count1 = psutil.net_io_counters()
-    channel_bandwidth_total = 11111.11
+    channel_bandwidth_total = 30000
     channel_bandwidth_used = ((count1.bytes_sent - count.bytes_sent) + (count1.bytes_recv  - count.bytes_recv))/1024*8
 
     channel_province = '冀'
-    channel_id = 2
-    channel_flag = 2
+    channel_id = 3
+    channel_flag = 3
     # channel_type = 1 #1 为不要验证码
     need_vin = 4 #车架号 0 为不需要 4为后四位 6为后六位99为完整的
     need_engine_number = 0 #发动机号 0 为不需要 4为后四位 6为后六位99为完整的
@@ -56,20 +56,26 @@ def Heartbeat():
     }
     return a
 
-print(Heartbeat())
-
-
-if __name__ == '__main__':
+def Heartbeatbao():
     try:
         while True:
-            # url = "http://10.1.141.146:8080/0/"
             url = "http://ga.qibeiwang.com/danger/channel/index"
             data = Heartbeat()
-            a = requests.post(url=url,data = data).content
+            requests.adapters.DEFAULT_RETRIES = 5 # 增加重连次数
+            s = requests.session()
+            s.keep_alive = False # 关闭多余连接
+            a = s.post(url=url,data = data).content
             b = json.loads(a)
             print(b)
             time.sleep(60)
     except Exception as e:
         with open("heartbeat.txt","a+") as f:
+            time.sleep(2)
             f.write("%s\n"%e)
+            print(e)
+            Heartbeatbao()
+
+
+if __name__ == '__main__':
+    Heartbeatbao()
 
